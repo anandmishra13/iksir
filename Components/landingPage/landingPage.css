@@ -26,8 +26,36 @@ body{
     opacity: 1 !important;
 }
 .slick-slide {
-    outline: none
+    outline: none;
+    /* width: 300px !important; */
 }
+/* @media (max-width: 768px) {
+    .slick-slide{
+        width: 305px !important;
+    }
+    
+} */
+/* @media (min-width: 768px) {
+    .slick-slide{
+        width: 347px !important;
+    }
+
+    .slick-list {
+        margin: 0px 0px 0px 34px !important;
+    }
+}
+@media (min-width: 992px) {
+    .slick-slide{
+        width: 300px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .slick-slide{
+        width: 313px !important;
+    }
+} */
+
+/*  */
 .slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 30px !important;
@@ -69,7 +97,7 @@ body{
     right: 48px !important;
 }
 .slick-list {
-    margin: 36px 0px 0px 68px !important
+    margin: 36px 0px 0px 68px ;
 }
   .nav-link{
     color: black !important;
@@ -137,7 +165,7 @@ body{
     color: white;
     font-family: subheading;
 }
-@media (min-width: 768px){
+@media (min-width: 1200px){
     .shopNow_btn{
         margin-bottom: 14.5rem!important;
     }
@@ -197,7 +225,7 @@ body{
     }
 }
 @media (min-width: 768px) {
-    .Product_title { font-size: 1.5rem; }
+    .Product_title { font-size: 1.4rem; }
 }
 @media (min-width: 992px) {
     .Product_title { font-size: 1.75rem; }
@@ -324,23 +352,23 @@ body{
     font-size: 8px;
     /* padding: 0rem 10rem; */
 }
-@media (min-width: 768px){
-    /* .SB_product_text{
+/* @media (min-width: 768px){
+    .SB_product_text{
         padding: 0rem 10rem !important; 
-    } */
-}
+    }
+} */
 .SB_product_prize{
     font-weight: bold;
 
 }
-/* .slick-list {
+ /* .slick-list {
     margin: 36px 0px 0px 56px !important;
-}
+} */
 
-.slick-next {
+/* .slick-next {
     right: 43px !important;
     background-color: black !important;
-} */
+}  */
 
 /* ............................show some love........................ */
 .show_love_heading{
