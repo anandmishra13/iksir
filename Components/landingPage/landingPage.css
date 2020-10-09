@@ -1,0 +1,449 @@
+@font-face {
+    font-family: heading;
+    src: url(../../Font/Gotham-Font/GothamBold.ttf);
+  }
+
+  @font-face {
+    font-family: text;
+    src: url(../../Font/Gotham-Font/GothamBook.ttf);
+  }
+  @font-face {
+    font-family: subheading;
+    src: url(../../Font/Gotham-Font/GothamMedium.ttf);
+  }
+  @font-face {
+    font-family: text_italic;
+    src: url(../../Font/Gotham-Font/GothamLightItalic.ttf);
+  }
+
+body{
+    overflow-x: hidden;
+}
+
+/* ................................slick.................... */
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 1 !important;
+}
+.slick-slide {
+    outline: none
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white !important;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    /* color: transparent; */
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev {
+    left: 24px !important;
+    background-color:white !important;
+}
+.slick-next {
+    right: 48px !important;
+}
+.slick-list {
+    margin: 36px 0px 0px 68px !important
+}
+  .nav-link{
+    color: black !important;
+    font-size: 15px !important;
+    padding-right: 2.5rem !important;
+    font-family: heading;
+  }
+
+.search_icon{
+    width: 18px;
+    margin-right: 1rem !important;
+    margin-left: 1rem ;
+
+}
+.cart_icon{
+    width: 18px;
+    margin-right: 5px;
+    /* margin: -4px 15px 0px 12px; */
+}
+
+.background{
+    background-image: url(../../image/landingpage/Icons-20201006T064829Z-001/Icons/Group\ 150.png);
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.head{
+    font-family: heading;
+    color: black;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .head { font-size: 1rem; }
+    .heading{
+        margin-top: 1.6rem !important;
+        font-size: 1em !important;
+    }
+}
+@media (min-width: 768px) {
+    .head { font-size: 1.5rem; }
+    .heading{
+        margin-top: 1.6rem !important;
+        font-size: 1.3em !important;
+    }
+}
+@media (min-width: 992px) {
+    .head { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .head { 
+        font-size: 1.8rem;
+        padding-top: 6rem !important;
+     }
+     .heading{
+        margin-top: 13.6rem !important;
+     }
+}
+
+.shopNow_btn{
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    font-family: subheading;
+}
+@media (min-width: 768px){
+    .shopNow_btn{
+        margin-bottom: 14.5rem!important;
+    }
+}
+
+/* <!-- ...................skil healing and glow boosting --> */
+
+.heading{
+    font-family: heading;
+    margin-top: 13.6rem;
+    font-size: 1.7em;
+    color: black;
+}
+
+.paragrap{
+    font-family: text;
+    font-size: 12px;
+}
+
+/* ...........................................our product */
+.Product_title{
+    font-size: 1.7em;
+    font-family: 'heading';
+    margin:auto;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .Product_title { 
+        font-size: 15px; 
+    }
+    .slick-list {
+        margin: 1px 50px 21px 63px !important
+    }
+    .slick-next {
+        right: 0px !important;
+    }
+    .slick-prev {
+        left: 0px !important;
+    }
+    .SB_product_text {
+        padding: 0rem 0rem!important;
+    }    
+    .image1{
+        width: 50px !important;
+    }
+    .image2{
+        width: 128px !important;
+    }
+    .image3{
+        width: 66px !important;
+        margin-top: 0px;
+    }
+    .image4{
+        width: 66px !important;
+        margin-top: 0px;
+    }
+}
+@media (min-width: 768px) {
+    .Product_title { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .Product_title { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .Product_title { font-size: 1.7rem; }
+}
+
+.image1{
+    width: 50px;
+}
+.image2{
+    width: 130px;
+    margin-top: 5px;
+}
+.image3{
+    width: 60px;
+    margin-top: 20px;
+}
+.image4{
+    width: 60px;
+    margin-top: 20px;
+}
+
+
+.image_line{
+    width: 178px;
+    background-color: black;
+}
+
+.line-l{
+    float: right;
+    margin: 11vh auto;
+    background-color: black;
+}
+.line-r{
+    margin: 11vh 0;
+    background-color: black;
+}
+
+.noPadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.image{
+    width: 25% !important;
+    border-bottom: 1px solid black;
+}
+
+
+.product-text{
+    font-family: subheading;
+    font-size: 10px;
+    color: black;
+}
+.shop_btn{
+    background-color: #000;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: .65rem .9375rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.grid_btn{
+    display: block;
+    max-width: 146px;
+    margin: 10px 0;
+    /* margin-top: auto; */
+    width: 100%;
+    border-radius: 0;
+}
+
+.heading3{
+    font-family: heading;
+    font-size: 1.7em;
+    margin-top: 0 !important;
+}
+
+@media(max-width: 576px){
+    .heading3{
+        font-size: 1.4em !important;
+    }
+}
+
+.text{
+    font-family: text;
+    font-size: 12px;
+}
+.line{
+    width: 13rem;
+    height: 1px;
+    background-color: rgb(0 0 0 / 63%);
+    margin-left: 1px;
+}
+
+/* ....................................special bundles..................... */
+.SBimage1{
+    width: 230px;
+}
+.SBimage2{
+    width: 180px;
+    margin-top: 5px;
+}
+.SBimage_line {
+    width: 208px;
+    background-color: black;
+}
+.SB_product_header{
+    font-family: subheading;
+    font-size: 10px;
+    color: black;
+}
+
+.SB_product_text{
+    font-family: text;
+    font-size: 8px;
+    /* padding: 0rem 10rem; */
+}
+@media (min-width: 768px){
+    /* .SB_product_text{
+        padding: 0rem 10rem !important; 
+    } */
+}
+.SB_product_prize{
+    font-weight: bold;
+
+}
+/* .slick-list {
+    margin: 36px 0px 0px 56px !important;
+}
+
+.slick-next {
+    right: 43px !important;
+    background-color: black !important;
+} */
+
+/* ............................show some love........................ */
+.show_love_heading{
+    font-family: text;
+    font-size: 1.6em;
+    color: black;
+}
+
+.show_love{
+    font-family: text_italic;
+    font-size: 1.1em;
+    color: black;
+}
+.show_love_insta{
+    font-family: subheading;
+    font-size: 1em;
+    margin-left: 2px;
+}
+
+
+
+
+
+/* ...............................footer.................................... */
+.signup {
+    /* font-size: 25px; */
+    font-family: 'heading';
+    margin: 69px auto 32px;
+    color: black;
+}
+@media (max-width: 576px) {
+    .signup { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .signup { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .signup { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .signup { font-size: 1.6rem; }
+}
+
+.Email{
+    width: 29vw; 
+    border-radius: 0;
+    font-family: text;
+}
+@media (max-width: 600px) {
+    .Email{ 
+        width: 100% !important ;
+     }
+}
+.Email::placeholder {
+    font-size: 12px;
+  }
+.signup_btn{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    width: 14vw;
+    font-family: subheading;
+    FONT-SIZE: 12PX;
+    PADDING: 9PX 1PX;
+}  
+@media(max-width: 600px){
+    .signup_btn{
+        width: 10rem;
+        margin: 1px 31%;
+    }
+    .subBtn{
+        text-align: center !important;
+    }
+    .footer_head {
+        font-size: 14px !important;
+    }
+}
+.email_line{
+    border-top: 1px solid rgb(0 0 0 / 35%);
+    margin-top: 20px;
+}
+
+.footer1{
+    padding-left: 5%;
+    padding-top: 1.2em;
+    font-family: text;
+}
+.footer_head{
+    font-family: heading;
+    font-size: 1em;
+}
+
+.footer2{
+    font-family: text;
+    padding-left: 5%;
+    padding-top: 1.2em;
+}
+
+.text{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.size{
+    width:500px !important;
+}

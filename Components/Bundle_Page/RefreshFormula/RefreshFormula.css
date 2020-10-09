@@ -1,0 +1,324 @@
+@font-face {
+    font-family: heading;
+    src: url(../../../Font/Gotham-Font/GothamBold.ttf);
+  }
+
+  @font-face {
+    font-family: text;
+    src: url(../../../Font/Gotham-Font/GothamBook.ttf);
+  }
+  @font-face {
+    font-family: subheading;
+    src: url(../../../Font/Gotham-Font/GothamMedium.ttf);
+  }
+body{
+    overflow-x: hidden;
+}
+
+  .nav-link{
+    color: black !important;
+    font-size: 15px !important;
+    padding-right: 2.5rem !important;
+    font-family: heading;
+  }
+
+.search_icon{
+    width: 18px;
+    margin-right: 1rem !important;
+    margin-left: 1rem ;
+
+}
+.cart_icon{
+    width: 18px;
+    margin-right: 5px;
+    /* margin: -4px 15px 0px 12px; */
+}
+/* .......................page.......................... */
+
+.title{
+    font-size: 2em;
+    font-family: 'heading';
+    margin: 8vh auto;
+    color: black;
+}
+html { font-size: 1rem; }
+
+@media (max-width: 576px) {
+    .title { 
+        font-size: 1rem; 
+    }
+}
+@media (min-width: 768px) {
+    .title { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .title { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .title { font-size: 2rem; }
+}
+.line-l{
+    float: right;
+    margin: 11vh auto;
+    background-color: black;
+}
+.line-r{
+    margin: 11vh 0;
+    background-color: black;
+}
+.title-row{
+    height: 10vh;
+}
+.carousel-align{
+    margin: 28px 10px 10px 270px;
+}
+
+/* ................................................product.................................... */
+
+/* .product{
+    padding: 6rem 9rem;
+} */
+.image{
+    width: 250px !important;
+    /* height: 211px !important; */
+    /* margin:1rem 1rem 6rem 8rem; */
+    border-bottom: 1px solid black;
+}
+.image-text{
+    /* width: 31vw; */
+    padding: 1px 58px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .carousel-indicators ol {
+
+    background-color: white;
+  }
+
+
+.text-color p{
+    color: black;
+    font-family: text;
+    font-size: 9px;
+    /* width: 13vw; */
+}
+.text-color h5{
+    color: black;
+    font-family: subheading;
+    font-size: 12px;
+}
+.text1{
+    font-family: heading;
+    font-size: 20px;
+    color: black;
+}
+.line{
+    width: 8vw;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+.cost{
+    font-size: 1rem;
+    color: black;
+}
+.shop_btn{
+    background-color: #000;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: .65rem .9375rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.grid_btn{
+    display: block;
+    max-width: 180px;
+    margin: 10px 0;
+    /* margin-top: auto; */
+    width: 100%;
+    border-radius: 0;
+}
+
+.text2{
+    font-family: subheading;
+    font-size: 17px;
+
+}
+.text3{
+    font-family: text;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* ..............................how to use......................... */
+
+.image2{
+    width: 100%;
+    max-width: 388px;
+    max-height: 433px;
+    /* margin-left: 3rem;
+    margin-bottom: 27px; */
+}
+
+.HTU1{
+    font-family: heading;
+    font-size: 1.4rem;
+    color: black;
+    margin-top: 3rem;
+}
+@media (max-width: 576px) {
+    .HTU1 { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .HTU1 { font-size: 1.2rem; }
+}
+@media (min-width: 992px) {
+    .HTU1 { font-size: 1.3rem; }
+}
+@media (min-width: 1200px) {
+    .HTU1 { font-size: 1.3rem; }
+}
+.HTU_line{
+    width: 13rem;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.HTU_text3{
+    font-family: text;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* ........................................organic_clean............................. */
+.image3{
+    width: 100%;
+    max-width: 388px;
+    max-height: 433px;
+    /* margin-left: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; */
+}
+
+.organic_clean_text1{
+    font-family: heading;
+    font-size: 1.4rem;
+    color: black;
+}
+@media (max-width: 576px) {
+    .organic_clean_text1 { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .organic_clean_text1 { font-size: 1.2rem; }
+}
+@media (min-width: 992px) {
+    .organic_clean_text1 { font-size: 1.3rem; }
+}
+@media (min-width: 1200px) {
+    .organic_clean_text1 { font-size: 1.3rem; }
+}
+.organic_clean_line{
+    width: 10rem;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.organic_clean_text3{
+    font-family: text;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* ................................signup.......................... */
+
+.signup {
+    /* font-size: 25px; */
+    font-family: 'heading';
+    margin: 15vh auto 8vh;
+    color: black;
+}
+@media (max-width: 576px) {
+    .signup { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .signup { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .signup { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .signup { font-size: 1.6rem; }
+}
+
+.Email{
+    width: 29vw; 
+    border-radius: 0;
+    font-family: text;
+}
+@media (max-width: 600px) {
+    .Email{ 
+        width: 100% !important ;
+     }
+}
+.Email::placeholder {
+    font-size: 12px;
+  }
+.signup_btn{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    width: 14vw;
+    font-family: subheading;
+    FONT-SIZE: 12PX;
+    PADDING: 9PX 1PX;
+}  
+@media(max-width: 600px){
+    .signup_btn{
+        width: 10rem;
+        margin: 1px 31%;
+    }
+}
+.email_line{
+    border-top: 1px solid rgb(0 0 0 / 35%);
+    margin-top: 20px;
+}
+
+.footer1{
+    padding-left: 5%;
+    padding-top: 1.2em;
+    font-family: text;
+}
+.head{
+    font-family: heading;
+    font-size: 1em;
+}
+
+.footer2{
+    font-family: text;
+    padding-left: 5%;
+    padding-top: 1.2em;
+}
+
+.text{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
