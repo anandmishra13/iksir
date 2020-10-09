@@ -133,7 +133,8 @@ body{
 }
 
 @media (max-width: 768px) {
-    .head { font-size: 1rem; }
+    .head { font-size: 10px;
+        padding: 0; }
     .heading{
         margin-top: 1.6rem !important;
         font-size: 1em !important;
@@ -437,7 +438,7 @@ body{
 @media(max-width: 600px){
     .signup_btn{
         width: 10rem;
-        margin: 1px 31%;
+        margin: 0px 85px;
     }
     .subBtn{
         text-align: center !important;
