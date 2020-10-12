@@ -1,0 +1,171 @@
+@font-face {
+    font-family: heading;
+    src: url(../../Font/Gotham-Font/GothamBold.ttf);
+  }
+
+  @font-face {
+    font-family: text;
+    src: url(../../Font/Gotham-Font/GothamBook.ttf);
+  }
+  @font-face {
+    font-family: subheading;
+    src: url(../../Font/Gotham-Font/GothamMedium.ttf);
+  }
+  @font-face {
+    font-family: text_italic;
+    src: url(../../Font/Gotham-Font/GothamLightItalic.ttf);
+  }
+
+body{
+    overflow-x: hidden;
+}
+.nav-link{
+    color: black !important;
+    font-size: 15px !important;
+    padding-right: 2.5rem !important;
+    font-family: heading;
+}
+
+.search_icon{
+    width: 18px;
+    margin-right: 1rem !important;
+    margin-left: 1rem ;
+
+}
+.cart_icon{
+    width: 18px;
+    margin-right: 5px;
+    /* margin: -4px 15px 0px 12px; */
+}
+
+.title{
+    font-size: 1.6em;
+    font-family: 'heading';
+    margin: 10px auto;
+    color: black;
+}
+html { font-size: 1rem; }
+
+@media (max-width: 576px) {
+    .title { 
+        font-size: 1rem; 
+    }
+}
+@media (min-width: 768px) {
+    .title { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .title { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .title { font-size: 1.6rem; }
+}
+.line-l{
+    float: right;
+    margin: 28px auto;
+    background-color: black;
+}
+.line-r{
+    margin: 28px 0;
+    background-color: black;
+}
+.card{
+    border: 0;
+}
+.card:hover{
+    /* border: 1px solid rgba(0,0,0,.125); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-text{
+    font-family: subheading;
+    font-size: 12px;
+}
+
+.card-title{
+    font-family: heading;
+}
+
+/* ...............................footer.................................... */
+.signup {
+    /* font-size: 25px; */
+    font-family: 'heading';
+    margin: 69px auto 32px;
+    color: black;
+}
+@media (max-width: 576px) {
+    .signup { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .signup { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .signup { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .signup { font-size: 1.6rem; }
+}
+
+.Email{
+    width: 25rem; 
+    border-radius: 0;
+    font-family: text;
+}
+@media (max-width: 600px) {
+    .Email{ 
+        width: 100% !important ;
+     }
+}
+.Email::placeholder {
+    font-size: 12px;
+  }
+.signup_btn{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    width: 14vw;
+    font-family: subheading;
+    FONT-SIZE: 12PX;
+    PADDING: 9PX 1PX;
+}  
+@media(max-width: 600px){
+    .signup_btn{
+        width: 10rem;
+        margin: 0px 85px;
+    }
+    .subBtn{
+        text-align: center !important;
+    }
+    .footer_head {
+        font-size: 14px !important;
+    }
+}
+.email_line{
+    border-top: 1px solid rgb(0 0 0 / 35%);
+    margin-top: 20px;
+}
+
+.footer1{
+    padding-left: 5%;
+    padding-top: 1.2em;
+    font-family: text;
+}
+.footer_head{
+    font-family: heading;
+    font-size: 1em;
+}
+
+.footer2{
+    font-family: text;
+    padding-left: 5%;
+    padding-top: 1.2em;
+}
+
+.text{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.size{
+    width:500px !important;
+}

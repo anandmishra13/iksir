@@ -2,10 +2,12 @@ $(function(){
   $('.slider').slick({
       // dots: true,
 infinite: false,
-speed: 300,
+speed: 200,
 slidesToShow: 4,
 arrows: true,
-// slidesToScroll: 1,
+// fade: true,
+// cssEase: 'linear',
+slidesToScroll: 1,
 responsive: [
   {
     breakpoint: 1024,
@@ -26,7 +28,9 @@ responsive: [
     breakpoint: 480,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      fade: true,
+      cssEase: 'linear',
     }
   }
 
@@ -57,7 +61,9 @@ $('.slider2').slick({
         settings: {
           slidesToShow: 1,
           dots: true,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          fade: true,
+          cssEase: 'linear',
         }
       },
       {
@@ -65,7 +71,9 @@ $('.slider2').slick({
         settings: {
           slidesToShow: 1,
           dots: true,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          fade: true,
+        cssEase: 'linear',
         }
       }
 

@@ -15,6 +15,122 @@ body{
     overflow-x: hidden;
 }
 
+/* ....................................slick settings */
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 1 !important;
+}
+.slick-slide {
+    outline: none;
+    
+}
+/* @media (max-width: 768px) {
+    .slick-slide{
+        width: 305px !important;
+    }
+    
+} */
+/* @media (min-width: 768px) {
+    .slick-slide{
+        width: 347px !important;
+    }
+
+    .slick-list {
+        margin: 0px 0px 0px 34px !important;
+    }
+}
+@media (min-width: 992px) {
+    .slick-slide{
+        width: 300px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .slick-slide{
+        width: 313px !important;
+    }
+} */
+
+/*  */
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white !important;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    /* color: transparent; */
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev {
+    left: 24px !important;
+    background-color:white !important;
+}
+.slick-next {
+    right: 48px !important;
+}
+.slick-list {
+    margin: 36px 0px 0px 68px ;
+}
+  .nav-link{
+    color: black !important;
+    font-size: 15px !important;
+    padding-right: 2.5rem !important;
+    font-family: heading;
+}
+.SBimage1{
+    width: 230px;
+}
+.SBimage2{
+    width: 180px;
+    margin-top: 5px;
+}
+.SBimage_line {
+    width: 208px;
+    background-color: black;
+}
+.SB_product_header{
+    font-family: subheading;
+    font-size: 10px;
+    color: black;
+}
+
+.SB_product_text{
+    font-family: text;
+    font-size: 8px;
+    /* padding: 0rem 10rem; */
+}
+/* @media (min-width: 768px){
+    .SB_product_text{
+        padding: 0rem 10rem !important; 
+    }
+} */
+.SB_product_prize{
+    font-weight: bold;
+}
+/* ................nav bar */
+
   .nav-link{
     color: black !important;
     font-size: 15px !important;
@@ -78,6 +194,8 @@ html { font-size: 1rem; }
 /* .product{
     padding: 6rem 9rem;
 } */
+
+
 .image{
     width: 250px !important;
     /* height: 211px !important; */
